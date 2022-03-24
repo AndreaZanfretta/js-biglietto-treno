@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.left{
+    text-align: left;
+}
+.right{
+    margin-left: 10px;
+}
+h1{
+    font-size: 40px;
+    color: white;
+    margin: 30px 0;
+}
+#totale{
+    width: 40%;
+    margin: 0 auto;
+    text-align: center;
+    background-color: red;
+}
+#totale .row{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    color: white;
+}
+#totale .col .left{
+    flex-basis: 70%;
+}
+#totale .col .right{
+    flex-basis: 30%;
+}
+#totale p{
+    margin: 10px 0;
+}
+
